@@ -1,0 +1,190 @@
+<style>
+  .padding {
+    margin: 0px;
+    padding: 12px;
+    margin-top: 19px;
+  }
+
+  .checkboxdemoSelectAll .demo-legend {
+    color: #3F51B5;
+  }
+
+  .checkboxdemoSelectAll .demo-fieldset {
+    border-style: solid;
+    border-width: 1px;
+    height: 100%;
+  }
+
+  .checkboxdemoSelectAll .demo-select-all-checkboxes {
+    padding-left: 30px;
+  }
+
+  .iconoAceptar {
+    font-size: 40px;
+    margin-top: 9px;
+  }
+
+  .colorDisabled {
+    background-color: #c1c1c1;
+  }
+
+  .innerContenedor {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -111px;
+    margin-top: -23px;
+  }
+
+</style>
+
+
+<wizard on-finish="finishedWizard()" on-cancel="cancelledWizard()" indicators-position="top" hide-indicators="escondeWizard">
+  <wz-step wz-title="Datos Personales">
+
+    <div class="formulario">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <legend class="demo-legend">Datos Personales</legend>
+        </div>
+        <div class="container padding md-whiteframe-z2" style="height: 500px; overflow: auto;">
+
+          <div class="row">
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-input-container class="md-block" flex-gt-sm>
+                <label>Primero Nombre</label>
+                <input ng-model="nuevaInscripcion.primerNombre">
+              </md-input-container>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-input-container class="md-block" flex-gt-sm>
+                <label>Segundo Nombre</label>
+                <input ng-model="nuevaInscripcion.segundoNombre">
+              </md-input-container>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-input-container class="md-block" flex-gt-sm>
+                <label>Primer Paterno</label>
+                <input ng-model="nuevaInscripcion.apellidoPaterno">
+              </md-input-container>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-input-container class="md-block" flex-gt-sm>
+                <label>Apellido Materno</label>
+                <input ng-model="nuevaInscripcion.apellidoMaterno">
+              </md-input-container>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-input-container class="md-block" flex-gt-sm>
+                <label>Rut</label>
+                <input ng-rut rut-format="live" type="text" ng-model="nuevaInscripcion.rut">
+              </md-input-container>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-input-container class="md-block" flex-gt-sm >
+                <label>Fecha de Nacimmiento</label>
+                <md-datepicker ng-model="nuevaInscripcion.fechaNacimiento"
+                               md-placeholder="Enter date"
+                               md-hide-icons="all"
+                               class="md-block"
+                               style="width: 300px !important;"
+                               md-open-on-focus></md-datepicker>
+              </md-input-container>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-select ng-model="nuevaCotizacion.nivel" placeholder="Nivel de Ingreso">
+                <md-option value="{{nivel.valor}}" ng-repeat="nivel in niveles">{{nivel.nombre}}</md-option>
+              </md-select>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-select ng-model="nuevaCotizacion.nivel" placeholder="Jornada">
+                <md-option value="{{horario.valor}}" ng-repeat="horario in horarios">{{horario.nombre}}</md-option>
+              </md-select>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-input-container class="md-block" flex-gt-sm>
+                <label>Direccion</label>
+                <input ng-model="nuevaInscripcion.direccion">
+              </md-input-container>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-select ng-model="nuevaCotizacion.comuna" placeholder="Jornada">
+                <md-option value="{{comuna.id}}" ng-repeat="comuna in comunas track by $index">{{comuna.nombre}}</md-option>
+              </md-select>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-input-container class="md-block" flex-gt-sm>
+                <label>Telefono</label>
+                <input ng-model="nuevaInscripcion.telefono">
+              </md-input-container>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-input-container class="md-block" flex-gt-sm>
+                <label>Estubo en sala cuna?</label>
+                <input ng-model="nuevaInscripcion.salaCuna">
+              </md-input-container>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-input-container class="md-block" flex-gt-sm>
+                <label>Nombre</label>
+                <input ng-model="nuevaInscripcion.salaCunaNombre">
+              </md-input-container>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-input-container class="md-block" flex-gt-sm>
+                <label>Estuvo en Jardin Infantil</label>
+                <input ng-model="nuevaInscripcion.jardinInfantil">
+              </md-input-container>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-input-container class="md-block" flex-gt-sm>
+                <label>Nombre</label>
+                <input ng-model="nuevaInscripcion.jardinInfantilNombre">
+              </md-input-container>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <md-input-container class="md-block" flex-gt-sm>
+                <label>Motivo de Retiro</label>
+                <input ng-model="nuevaInscripcion.motivoRetiro">
+              </md-input-container>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <btn-siguiente></btn-siguiente>
+
+
+  </wz-step>
+  <wz-step wz-title="Antecedentes Familiares">
+    <h1>Continuing</h1>
+    <p>You have continued here!</p>
+    <btn-anterior></btn-anterior>
+    <btn-siguiente></btn-siguiente>
+  </wz-step>
+  <wz-step wz-title="Desarrollo 1">
+    <p>Even more steps!!</p>
+    <btn-anterior></btn-anterior>
+    <btn-siguiente></btn-siguiente>
+  </wz-step>
+  <wz-step wz-title="Desarrollo 2">
+    <p>Even more steps!!</p>
+    <btn-anterior></btn-anterior>
+    <btn-siguiente></btn-siguiente>
+  </wz-step>
+  <wz-step wz-title="Desarrollo 3">
+    <p>Even more steps!!</p>
+    <btn-anterior></btn-anterior>
+    <btn-siguiente></btn-siguiente>
+  </wz-step>
+  <wz-step wz-title="Desarrollo 4">
+    <p>Even more steps!!</p>
+    <btn-anterior></btn-anterior>
+    <btn-siguiente></btn-siguiente>
+  </wz-step>
+</wizard>
+
+
+

@@ -1,0 +1,19 @@
+<cargando-global ng-show="cargando"></cargando-global>
+<h4>Bienvenido {{data.user.name}}</h4>
+
+<md-list flex>
+    <md-subheader class="md-no-sticky">Cotizaciones sin Revisar</md-subheader>
+    <md-list-item class="md-3-line" ng-repeat="item in dummy" ng-click="null">
+        <img ng-src="vistas/img/user.svg" class="md-avatar" alt="{{item.titulo}}" />
+        <div class="md-list-item-text" layout="column">
+            <h3>{{ item.titulo }}</h3>
+            <h4>{{ item.cuerpo }}</h4>
+            <p>{{ item.pie }}</p>
+        </div>
+        <md-button class="md-secondary md-icon-button md-fab"
+                   ng-click="doSecondaryAction($event)"
+                   aria-label="call">
+            <i class="material-icons">settings</i>
+        </md-button>
+    </md-list-item>
+</md-list>

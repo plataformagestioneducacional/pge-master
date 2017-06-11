@@ -1,0 +1,250 @@
+<style>
+  .padding {
+    margin: 0px;
+    padding: 12px;
+    margin-top: 19px;
+  }
+
+  .checkboxdemoSelectAll .demo-legend {
+    color: #3F51B5;
+  }
+
+  .checkboxdemoSelectAll .demo-fieldset {
+    border-style: solid;
+    border-width: 1px;
+    height: 100%;
+  }
+
+  .checkboxdemoSelectAll .demo-select-all-checkboxes {
+    padding-left: 30px;
+  }
+
+  .iconoAceptar {
+    font-size: 40px;
+    margin-top: 9px;
+  }
+
+  .colorDisabled {
+    background-color: #c1c1c1;
+  }
+
+
+
+  .innerContenedor {
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left:-111px;
+    margin-top:-23px;
+  }
+</style>
+
+<button class="md-fab md-fab-bottom-right docs-scroll-fab md-button md-ink-ripple scrolling" type="button"
+        ng-style="!colorDisabled && {'background-color':'#c1c1c1'}"
+        ng-click="guardarCotizacion()" aria-label="Guardar Cotizacion">
+  <i class="material-icons iconoAceptar">done</i>
+  <div class="md-ripple-container" style=""></div>
+</button>
+
+<!--<legend class="demo-legend">Seleccione tipo de inscripcion</legend>
+<div class="text-center" style="margin-top: 100px;">
+  <md-button class="md-raised md-primary">Empresa</md-button>
+  <md-button class="md-raised md-primary">Particular</md-button>
+</div>
+</div>-->
+
+<div class="formulario col-xs-12 col-sm-12 col-md-12 col-lg-12 " ng-hide="hide">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+    <div class="container padding md-whiteframe-z2" style="height: 568px;">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " style="height: 568px;">
+          <legend class="demo-legend">Seleccione tipo de inscripcion</legend>
+          <div class="text-center innerContenedor"  >
+            <md-button class="md-raised md-primary" ng-click="setTipoCotizacion('empresa')">Empresa</md-button>
+            <md-button class="md-raised md-primary" ng-click="setTipoCotizacion('particular')">Particular</md-button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="formulario" ng-hide="!hide">
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+    <div class="container padding md-whiteframe-z2" style="height: 568px;">
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <legend class="demo-legend">Datos Generales</legend>
+          <md-input-container class="md-block" flex-gt-sm ng-if="!esParticular" style="margin-top: 35px;">
+            <label>Empresa</label>
+            <input ng-model="nuevaCotizacion.empresa">
+          </md-input-container>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>Nombre Apoderado</label>
+            <input ng-model="nuevaCotizacion.nombreApoderado">
+          </md-input-container>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>Apellido Apoderado</label>
+            <input ng-model="nuevaCotizacion.apellidoApoderado">
+          </md-input-container>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>Correo Electronico</label>
+            <input ng-model="nuevaCotizacion.correoElectronico">
+          </md-input-container>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>Telefono</label>
+            <input ng-model="nuevaCotizacion.telefono">
+          </md-input-container>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>Nombre Menor</label>
+            <input ng-model="nuevaCotizacion.nombreMenor">
+          </md-input-container>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>Apellido Menor</label>
+            <input ng-model="nuevaCotizacion.apellidoMenor">
+          </md-input-container>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <md-select ng-model="nuevaCotizacion.asistenciaDesde" placeholder="Desde">
+            <md-option value="1">Lunes</md-option>
+            <md-option value="2">Martes</md-option>
+            <md-option value="3">Miercoles</md-option>
+            <md-option value="4">Jueves?</md-option>
+            <md-option value="5">Viernes?</md-option>
+            <md-option value="6">Sabado?</md-option>
+            <md-option value="7">Domingo?</md-option>
+          </md-select>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <md-select ng-model="nuevaCotizacion.asistenciaHasta" placeholder="Desde">
+            <md-option value="1">Lunes</md-option>
+            <md-option value="2">Martes</md-option>
+            <md-option value="3">Miercoles</md-option>
+            <md-option value="4">Jueves</md-option>
+            <md-option value="5">Viernes</md-option>
+            <md-option value="6">Sabado</md-option>
+            <md-option value="7">Domingo</md-option>
+          </md-select>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+    <div class="container padding md-whiteframe-z2">
+      <legend class="demo-legend">Datos Generales</legend>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <md-select ng-model="nuevaCotizacion.nivel" placeholder="Nivel">
+            <md-option value="{{nivel.valor}}" ng-repeat="nivel in niveles">{{nivel.nombre}}</md-option>
+          </md-select>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>Matricula</label>
+            <input ng-model="nuevaCotizacion.matricula">
+          </md-input-container>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>Mensualidad</label>
+            <input ng-model="nuevaCotizacion.mensualidad">
+          </md-input-container>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>Validez</label>
+            <input ng-model="nuevaCotizacion.anio">
+          </md-input-container>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+    <div class="container padding md-whiteframe-z2">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="demo">
+            <div layout="row" layout-wrap>
+              <div flex="100" layout="column">
+                <div>
+                  <fieldset class="demo-fieldset">
+                    <legend class="demo-legend">Servicios</legend>
+                    <div layout="row" layout-wrap flex>
+                      <div flex-xs flex="50">
+                        <md-checkbox aria-label="Seleccionar Todos"
+                                     ng-checked="isChecked()"
+                                     md-indeterminate="isIndeterminate()"
+                                     ng-click="toggleAll()">
+                          <span ng-if="isChecked()">Un-</span>Seleccionar Todos
+                        </md-checkbox>
+                      </div>
+                      <div class="demo-select-all-checkboxes" flex="100" ng-repeat="item in items"
+                           style="margin-left: 20px;">
+                        <md-checkbox ng-checked="exists(item, selected)" ng-click="toggle(item, selected)">
+                          {{ item.nombre }}
+                        </md-checkbox>
+                      </div>
+                    </div>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+    <div class="container padding md-whiteframe-z2">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <md-content>
+            <md-list flex>
+              <legend class="demo-legend">Horarios</legend>
+              <md-list-item class="md-3-line"
+                            ng-repeat="horario in horarios track by $index"
+                            ng-style="horario.selected && {'background-color':'#9ed166'}"
+                            ng-click="seleccionarHorario(horario)">
+                <!--<img ng-src="{{item.face}}?{{$index}}" class="md-avatar" alt="{{item.who}}" />-->
+                <h1 class="md-avatar" style="background-color:#c1c1c1; text-align: center;color: #ffffff;"
+                    ng-style="horario.selected ?{'background-color':'#74984c'} : {'background-color':'rgba(8, 16, 23, 0.46)'}"
+                >{{$index+1}}</h1>
+                <div class="md-list-item-text" layout="column">
+                  <h3>{{ horario.nombre }}</h3>
+                  <h4>{{ horario.horas }}</h4>
+                  <p>{{ horario.horario}}</p>
+                </div>
+                <!--<md-checkbox style="position: absolute;right: 8px;z-index: 999;top: 18px;" ng-model="data.cb1" aria-label="Checkbox 1">
+
+                </md-checkbox>
+                <md-button class="md-primary md-fab">
+
+                </md-button>-->
+
+              </md-list-item>
+            </md-list>
+          </md-content>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

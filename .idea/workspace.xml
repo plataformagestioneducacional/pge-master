@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/funciones/login/validaLogin_.php" line="34" mnemonic="6" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="96ea83f0-564a-438a-b005-15ae04df1b75" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ci.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controladores/demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/accordion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/drag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/drag2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/dropdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/forms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/img/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/img/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/img/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/img/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/img/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/modal1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/modal2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/overlay.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/scroll.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/sidebarRight.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/swipe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/toggle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/touch.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/clock.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/drag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/lightbulb.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/tabs.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/demo.css" afterPath="$PROJECT_DIR$/css/index.css" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controladores/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <element signature="e#1080#1476#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registrarFichaAlumnoController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controladores/registrarFichaAlumnoController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="81" column="5" lean-forward="false" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vistas/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registrarFichaAlumno.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vistas/registrarFichaAlumno.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="101" column="49" lean-forward="false" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#wz-step#0;n#wizard#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-datepicker#0;n#md-input-container#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#wz-step#0;n#wizard#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="directivasGlobales.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/directivas/directivasGlobales.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#44#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nuevaCotizacion.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vistas/nuevaCotizacion.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3706">
+              <caret line="218" column="49" lean-forward="false" selection-start-line="218" selection-start-column="42" selection-end-line="218" selection-end-column="49" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-input-container#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#fieldset#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#md-list-item#0;n#md-list#0;n#md-content#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#md-toolbar#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#md-button#0;n#md-menu#0;n#div#0;n#md-toolbar#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nuevaCotizacionController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controladores/nuevaCotizacionController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1139">
+              <caret line="67" column="1" lean-forward="false" selection-start-line="57" selection-start-column="2" selection-end-line="67" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$rootScope.sections</find>
+      <find>toggle</find>
+      <find>roboto</find>
+      <find>sscop</find>
+      <find>guardar</find>
+      <find>$scope.item</find>
+      <find>section</find>
+      <find>consol</find>
+      <find>console.log($scope.data.sidenav.sections);</find>
+      <find>nuevaCotizacionController</find>
+      <find>ng-style</find>
+      <find>console</find>
+      <find>ca</find>
+      <find>cargando</find>
+      <find>cargandoG</find>
+      <find>cargandoGl</find>
+      <find>cargandoGloca</find>
+      <find>cargandoGloc</find>
+      <find>cargandoGlo</find>
+      <find>&lt;input type=&quot;submit&quot; wz-next value=&quot;Siguiente&quot; /&gt;</find>
+      <find>&lt;btn-anterior&gt;&lt;/btn-anterior&gt;</find>
+      <find>/** * Easy to use Wizard library for Angular JS * @version v1.1.1 - 2017-06-07 * @link https://github.com/mgonto/angular-wizard * @author Martin Gontovnikas &lt;martin@gon.to&gt; * @license MIT License, http://www.opensource.org/licenses/MIT */function wizardButtonDirective(a){angular.module(&quot;mgo-angular-wizard&quot;).directive(a,function(){return{restrict:&quot;A&quot;,replace:!1,require:&quot;^wizard&quot;,link:function(b,c,d,e){c.on(&quot;click&quot;,function(c){c.preventDefault(),b.$apply(function(){b.$eval(d[a]),e[a.replace(&quot;wz&quot;,&quot;&quot;).toLowerCase()]()})})}}})}angular.module(&quot;templates-angularwizard&quot;,[&quot;step.html&quot;,&quot;wizard.html&quot;]),angular.module(&quot;step.html&quot;,[]).run([&quot;$templateCache&quot;,function(a){a.put(&quot;step.html&quot;,'&lt;section ng-show=&quot;selected&quot; ng-class=&quot;{current: selected, done: completed}&quot; class=&quot;step&quot; ng-transclude&gt;\n&lt;/section&gt;')}]),angular.module(&quot;wizard.html&quot;,[]).run([&quot;$templateCache&quot;,function(a){a.put(&quot;wizard.html&quot;,'&lt;div&gt;\n    &lt;h2 ng-show=&quot;selectedStep.wzHeadingTitle != \'\'&quot;&gt;{{ selectedStep.wzHeadingTitle }}&lt;/h2&gt;\n\n    &lt;div class=&quot;steps&quot; ng-if=&quot;indicatorsPosition === \'bottom\'&quot; ng-transclude&gt;&lt;/div&gt;\n    &lt;ul class=&quot;steps-indicator steps-{{getEnabledSteps().length}}&quot; ng-if=&quot;!hideIndicators&quot;&gt;\n      &lt;li ng-class=&quot;{default: !step.completed &amp;&amp; !step.selected, current: step.selected &amp;&amp; !step.completed, done: step.completed &amp;&amp; !step.selected, editing: step.selected &amp;&amp; step.completed}&quot; ng-repeat=&quot;step in getEnabledSteps()&quot;&gt;\n        &lt;a ng-click=&quot;goTo(step)&quot;&gt;{{step.title || step.wzTitle}}&lt;/a&gt;\n      &lt;/li&gt;\n    &lt;/ul&gt;\n    &lt;div class=&quot;steps&quot; ng-if=&quot;indicatorsPosition === \'top\'&quot; ng-transclude&gt;&lt;/div&gt;\n&lt;/div&gt;\n')}]),angular.module(&quot;mgo-angular-wizard&quot;,[&quot;templates-angularwizard&quot;]),angular.module(&quot;mgo-angular-wizard&quot;).directive(&quot;wzStep&quot;,function(){return{restrict:&quot;EA&quot;,replace:!0,transclude:!0,scope:{wzTitle:&quot;@&quot;,wzHeadingTitle:&quot;@&quot;,canenter:&quot;=&quot;,canexit:&quot;=&quot;,disabled:&quot;@?wzDisabled&quot;,description:&quot;@&quot;,wzData:&quot;=&quot;,wzOrder:&quot;@?&quot;},require:&quot;^wizard&quot;,templateUrl:function(a,b){return b.template||&quot;step.html&quot;},link:function(a,b,c,d){c.$observe(&quot;wzTitle&quot;,function(b){a.title=a.wzTitle}),a.title=a.wzTitle,d.addStep(a),a.$on(&quot;$destroy&quot;,function(){d.removeStep(a)})}}}),angular.module(&quot;mgo-angular-wizard&quot;).directive(&quot;wizard&quot;,function(){return{restrict:&quot;EA&quot;,replace:!0,transclude:!0,scope:{currentStep:&quot;=&quot;,onCancel:&quot;&amp;&quot;,onFinish:&quot;&amp;&quot;,hideIndicators:&quot;=&quot;,editMode:&quot;=&quot;,name:&quot;@&quot;,indicatorsPosition:&quot;@?&quot;},templateUrl:function(a,b){return b.template||&quot;wizard.html&quot;},controller:[&quot;$scope&quot;,&quot;$element&quot;,&quot;$log&quot;,&quot;WizardHandler&quot;,&quot;$q&quot;,&quot;$timeout&quot;,function($scope,$element,$log,WizardHandler,$q,$timeout){function canEnterStep(step){var defer,canEnter;if(void 0===step.canenter)return!0;if(&quot;boolean&quot;==typeof step.canenter)return step.canenter;if(&quot;string&quot;==typeof step.canenter){var splitFunction=step.canenter.split(&quot;(&quot;);canEnter=eval(&quot;$scope.$parent.&quot;+splitFunction[0]+&quot;($scope.context&quot;+splitFunction[1])}else canEnter=step.canenter($scope.context);return angular.isFunction(canEnter.then)?(defer=$q.defer(),canEnter.then(function(a){defer.resolve(a)}),defer.promise):canEnter===!0}function canExitStep(step,stepTo){var defer,canExit;if(&quot;undefined&quot;==typeof step.canexit||$scope.getStepNumber(stepTo)&lt;$scope.currentStepNumber())return!0;if(&quot;boolean&quot;==typeof step.canexit)return step.canexit;if(&quot;string&quot;==typeof step.canexit){var splitFunction=step.canexit.split(&quot;(&quot;);canExit=eval(&quot;$scope.$parent.&quot;+splitFunction[0]+&quot;($scope.context&quot;+splitFunction[1])}else canExit=step.canexit($scope.context);return angular.isFunction(canExit.then)?(defer=$q.defer(),canExit.then(function(a){defer.resolve(a)}),defer.promise):canExit===!0}function unselectAll(){angular.forEach($scope.getEnabledSteps(),function(a){a.selected=!1}),$scope.selectedStep=null}void 0==$scope.indicatorsPosition&amp;&amp;($scope.indicatorsPosition=&quot;bottom&quot;);var firstRun=!0;WizardHandler.addWizard($scope.name||WizardHandler.defaultName,this),$scope.$on(&quot;$destroy&quot;,function(){WizardHandler.removeWizard($scope.name||WizardHandler.defaultName)}),$scope.steps=[];var stepIdx=function(a){var b=0,c=-1;return angular.forEach($scope.getEnabledSteps(),function(d){d===a&amp;&amp;(c=b),b++}),c},stepByTitle=function(a){var b=null;return angular.forEach($scope.getEnabledSteps(),function(c){c.wzTitle===a&amp;&amp;(b=c)}),b},handleEditModeChange=function(){var a=$scope.editMode;if(!angular.isUndefined(a)&amp;&amp;null!==a&amp;&amp;(angular.forEach($scope.steps,function(b){b.completed=a}),!a)){var b=$scope.currentStepNumber()-1;angular.forEach($scope.getEnabledSteps(),function(a,c){b&gt;c&amp;&amp;(a.completed=!0)})}};$scope.context={},$scope.$watch(&quot;currentStep&quot;,function(a){if(a){var b=$scope.selectedStep.wzTitle;$scope.selectedStep&amp;&amp;b!==$scope.currentStep&amp;&amp;$scope.goTo(stepByTitle($scope.currentStep))}}),$scope.$watch(&quot;[editMode, steps.length]&quot;,function(){handleEditModeChange()},!0),this.addStep=function(a){var b=a.wzOrder&gt;=0&amp;&amp;!$scope.steps[a.wzOrder]?a.wzOrder:$scope.steps.length;$scope.steps[b]=a,$scope.getEnabledSteps()[0]===a&amp;&amp;$scope.goTo($scope.getEnabledSteps()[0])},this.removeStep=function(a){var b=$scope.steps.indexOf(a);b&gt;0&amp;&amp;$scope.steps.splice(b,1)},this.context=$scope.context,$scope.getStepNumber=function(a){return stepIdx(a)+1},$scope.goTo=function(a){if(firstRun)unselectAll(),$scope.selectedStep=a,angular.isUndefined($scope.currentStep)||($scope.currentStep=a.wzTitle),a.selected=!0,$scope.$emit(&quot;wizard:stepChanged&quot;,{step:a,index:stepIdx(a)}),firstRun=!1;else{var b;$scope.currentStepNumber()&gt;0?b=$scope.currentStepNumber()-1:0===$scope.currentStepNumber()&amp;&amp;(b=0),$q.all([canExitStep($scope.getEnabledSteps()[b],a),canEnterStep(a)]).then(function(b){b[0]&amp;&amp;b[1]?(unselectAll(),$scope.selectedStep=a,angular.isUndefined($scope.currentStep)||($scope.currentStep=a.wzTitle),a.selected=!0,$scope.$emit(&quot;wizard:stepChanged&quot;,{step:a,index:stepIdx(a)})):$scope.$emit(&quot;wizard:stepChangeFailed&quot;,{step:a,index:_.indexOf($scope.getEnabledSteps(),a)})})}},$scope.currentStepNumber=function(){return stepIdx($scope.selectedStep)+1},$scope.getEnabledSteps=function(){return $scope.steps.filter(function(a){return a&amp;&amp;&quot;true&quot;!==a.disabled})},this.currentStepTitle=function(){return $scope.selectedStep.wzTitle},this.currentStepDescription=function(){return $scope.selectedStep.description},this.currentStep=function(){return $scope.selectedStep},this.totalStepCount=function(){return $scope.getEnabledSteps().length},this.getEnabledSteps=function(){return $scope.getEnabledSteps()},this.currentStepNumber=function(){return $scope.currentStepNumber()},this.next=function(a){var b=$scope.getEnabledSteps(),c=stepIdx($scope.selectedStep);if(angular.isFunction(a)){if(!a())return;c===b.length-1?this.finish():$scope.goTo(b[c+1])}a||($scope.selectedStep.completed=!0),c===b.length-1?this.finish():$scope.goTo(b[c+1])},this.goTo=function(a){$timeout(function(){var b,c=$scope.getEnabledSteps();b=angular.isNumber(a)?c[a]:stepByTitle(a),$scope.goTo(b)})},this.finish=function(){$scope.onFinish&amp;&amp;$scope.onFinish()},this.previous=function(){var a=stepIdx($scope.selectedStep);if(0===a)throw new Error(&quot;Can't go back. It's already in step 0&quot;);$scope.goTo($scope.getEnabledSteps()[a-1])},this.cancel=function(){if($scope.onCancel)$scope.onCancel();else{var a=stepIdx($scope.selectedStep);if(0===a)throw new Error(&quot;Can't go back. It's already in step 0&quot;);$scope.goTo($scope.getEnabledSteps()[0])}},this.reset=function(){angular.forEach($scope.getEnabledSteps(),function(a){a.completed=!1}),this.goTo(0)},this.setEditMode=function(a){$scope.editMode=a,handleEditModeChange()}}]}}),wizardButtonDirective(&quot;wzNext&quot;),wizardButtonDirective(&quot;wzPrevious&quot;),wizardButtonDirective(&quot;wzFinish&quot;),wizardButtonDirective(&quot;wzCancel&quot;),wizardButtonDirective(&quot;wzReset&quot;),angular.module(&quot;mgo-angular-wizard&quot;).factory(&quot;WizardHandler&quot;,function(){var a={},b={};return a.defaultName=&quot;defaultWizard&quot;,a.addWizard=function(a,c){b[a]=c},a.removeWizard=function(a){delete b[a]},a.wizard=function(c){var d=c;return c||(d=a.defaultName),b[d]},a});</find>
+      <find>w</find>
+      <find>wizard</find>
+      <find>&lt;input type=&quot;submit&quot; wz-previous value=&quot;Anterior&quot; /&gt;</find>
+      <find>nivel</find>
+      <find>jornada</find>
+      <find>niveles</find>
+      <find>horario</find>
+      <find>Isla</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&lt;btn-siguiente&gt;&lt;/btn-siguiente&gt;</replace>
+      <replace>&lt;btn-anterior&gt;&lt;/btn-anterior&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/controladores/demo.js" />
+        <option value="$PROJECT_DIR$/css/glocal.css" />
+        <option value="$PROJECT_DIR$/dist/js/sweetalert2.js" />
+        <option value="$PROJECT_DIR$/dist/css/sweetalert2.css" />
+        <option value="$PROJECT_DIR$/css/animated.css" />
+        <option value="$PROJECT_DIR$/css/global.css" />
+        <option value="$PROJECT_DIR$/controladores/homeController.js" />
+        <option value="$PROJECT_DIR$/funciones/login/validaLogin.php" />
+        <option value="$PROJECT_DIR$/funciones/login/validaLogin_.php" />
+        <option value="$PROJECT_DIR$/vistas/home.html" />
+        <option value="$PROJECT_DIR$/controladores/loginController.js" />
+        <option value="$PROJECT_DIR$/vistas/nuevaCotizacion.html" />
+        <option value="$PROJECT_DIR$/controladores/nuevaCotizacionController.js" />
+        <option value="$PROJECT_DIR$/src/js/wizard.js" />
+        <option value="$PROJECT_DIR$/src/js/rut.js" />
+        <option value="$PROJECT_DIR$/directivas/directivasGlobales.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/controladores/index.js" />
+        <option value="$PROJECT_DIR$/vistas/login.html" />
+        <option value="$PROJECT_DIR$/controladores/registrarFichaAlumnoController.js" />
+        <option value="$PROJECT_DIR$/vistas/registrarFichaAlumno.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="c6526f8a-bcbd-4294-8f6b-793b6f266d08" name="localJost" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\pge\vistas" />
+      <recent name="C:\wamp64\www\pge\controladores" />
+      <recent name="C:\wamp64\www\pge\funciones\login" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\pge\css" />
+      <recent name="C:\wamp64\www\pge\controladores" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96ea83f0-564a-438a-b005-15ae04df1b75" name="Default" comment="" />
+      <created>1495406910485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1495406910485</updated>
+      <workItem from="1495406917805" duration="654000" />
+      <workItem from="1496005398130" duration="598000" />
+      <workItem from="1496011328649" duration="91000" />
+      <workItem from="1496015494324" duration="11461000" />
+      <workItem from="1496599341084" duration="119000" />
+      <workItem from="1496600545353" duration="1502000" />
+      <workItem from="1496602178649" duration="18815000" />
+      <workItem from="1497126683855" duration="20886000" />
+      <workItem from="1497200646173" duration="45000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="54171000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vistas/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladores/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#1080#1476#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladores/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladores/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+          <folding>
+            <element signature="e#1080#1476#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vistas/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladores/loginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="95" lean-forward="false" selection-start-line="74" selection-start-column="95" selection-end-line="74" selection-end-column="95" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#md-toolbar#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-button#0;n#md-menu#0;n#div#0;n#md-toolbar#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladores/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vistas/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vistas/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladores/loginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="14" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directivas/directivasGlobales.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="95" lean-forward="false" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funciones/login/validaLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="25" />
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="25" />
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="31" />
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="24" />
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladores/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" column="37" lean-forward="true" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
+          <folding>
+            <element signature="e#1080#1476#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="95" lean-forward="false" selection-start-line="74" selection-start-column="95" selection-end-line="74" selection-end-column="95" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#md-toolbar#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-button#0;n#md-menu#0;n#div#0;n#md-toolbar#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladores/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vistas/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladores/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="104" column="36" lean-forward="true" selection-start-line="99" selection-start-column="15" selection-end-line="104" selection-end-column="36" />
+          <folding>
+            <element signature="e#1080#1476#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vistas/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladores/loginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="14" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directivas/directivasGlobales.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="95" lean-forward="false" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funciones/login/validaLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="25" />
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="25" />
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="31" />
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="24" />
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#md-toolbar#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-button#0;n#md-menu#0;n#div#0;n#md-toolbar#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#md-toolbar#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-button#0;n#md-menu#0;n#div#0;n#md-toolbar#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="79" lean-forward="false" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#md-toolbar#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-button#0;n#md-menu#0;n#div#0;n#md-toolbar#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladores/demo.js" />
+    <entry file="file://$PROJECT_DIR$/home.html" />
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/sweetalert2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="715" column="38" lean-forward="false" selection-start-line="715" selection-start-column="38" selection-end-line="715" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/sweetalert2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="1640" column="77" lean-forward="false" selection-start-line="1640" selection-start-column="77" selection-end-line="1640" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/animate (2).css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1579" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/animated.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="1579" column="0" lean-forward="false" selection-start-line="1579" selection-start-column="0" selection-end-line="1579" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funciones/login/validaLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="79" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="28" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vistas/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladores/loginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funciones/login/validaLogin_.php" />
+    <entry file="file://$PROJECT_DIR$/controladores/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/rut.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1246" lean-forward="false" selection-start-line="7" selection-start-column="1246" selection-end-line="7" selection-end-column="1246" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/wizard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladores/nuevaCotizacionController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="1" lean-forward="false" selection-start-line="57" selection-start-column="2" selection-end-line="67" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vistas/nuevaCotizacion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3706">
+          <caret line="218" column="49" lean-forward="false" selection-start-line="218" selection-start-column="42" selection-end-line="218" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-input-container#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#fieldset#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#md-list-item#0;n#md-list#0;n#md-content#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#md-toolbar#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-button#0;n#md-menu#0;n#div#0;n#md-toolbar#0;n#md-sidenav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladores/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#1080#1476#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vistas/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controladores/registrarFichaAlumnoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="5" lean-forward="false" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directivas/directivasGlobales.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vistas/registrarFichaAlumno.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="101" column="49" lean-forward="false" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#wz-step#0;n#wizard#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#md-datepicker#0;n#md-input-container#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#wz-step#0;n#wizard#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
